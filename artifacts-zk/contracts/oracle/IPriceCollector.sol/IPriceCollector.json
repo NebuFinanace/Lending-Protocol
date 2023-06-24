@@ -1,0 +1,30 @@
+{
+  "_format": "hh-zksolc-artifact-1",
+  "contractName": "IPriceCollector",
+  "sourceName": "contracts/oracle/IPriceCollector.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address[]",
+          "name": "asset",
+          "type": "address[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "price",
+          "type": "uint256[]"
+        }
+      ],
+      "name": "setDirectPrice",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {},
+  "factoryDeps": {}
+}
